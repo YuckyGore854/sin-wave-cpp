@@ -99,7 +99,7 @@ int main(int argc, char* argv[]) {
 
 				if ((*bulletIter)->getX() > 700) {
 
-					bullets.erase(bullets.end()-currBullet);
+					bullets.erase(bullets.begin() + 1);
 					
 				}
 			}
